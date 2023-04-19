@@ -1,51 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sam Christensen - Software Developer Portfolio</title>
+    <style>
+      /* Add some basic styles to make the page look nicer */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+      }
+      nav {
+        background-color: #666;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      h2 {
+        margin-top: 0;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <h1>Sam Christensen</h1>
+      <p>Software Developer Portfolio</p>
     </header>
-    <main>
-      <section class="hero">
-        <h1>Welcome to my Portfolio</h1>
-        <p>I am a web developer with a passion for creating clean and functional websites.</p>
-        <a href="#" class="btn">View Portfolio</a>
-      </section>
-      <section class="featured-projects">
-        <h2>Featured Projects</h2>
-        <div class="project">
-          <img src="project-1.jpg" alt="Project 1">
-          <h3>Project 1</h3>
-        </div>
-        <div class="project">
-          <img src="project-2.jpg" alt="Project 2">
-          <h3>Project 2</h3>
-        </div>
-        <div class="project">
-          <img src="project-3.jpg" alt="Project 3">
-          <h3>Project 3</h3>
-        </div>
-      </section>
-      <section class="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm John Doe, a web developer with 5 years of experience in creating websites and web applications. I specialize in HTML, CSS, JavaScript and have worked with various CMS platforms like WordPress, Drupal, and Joomla. I am passionate about creating user-friendly and accessible websites that are not only functional but also visually appealing.</p>
-        <a href="#" class="btn">Read More</a>
-      </section>
-    </main>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+      <h2>About</h2>
+      <p>Hi, my name is Sam Christensen and I am a software developer student at the University of Utah. I am passionate about programming and I love to create software that solves real-world problems.</p>
+      <p>Some of my skills include:</p>
+      <ul>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>HTML/CSS/JavaScript</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Here are some of the projects I have worked on:</p>
+      <ul>
+        <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at:</p>
+      <ul>
+        <li>Email: sam.christensen@example.com</li>
+        <li>Phone: (123) 456-7890</li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </section>
     <footer>
-      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+      <p>&copy; 2023 Sam Christensen</p>
     </footer>
   </body>
 </html>
